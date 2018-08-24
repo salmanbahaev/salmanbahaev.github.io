@@ -1,0 +1,107 @@
+body {
+	background: #DAD6DB;
+	margin: 0 auto;
+	padding: 0 10%;
+	font-family: "PT Sans", Tahoma, Arial;
+}
+
+p {
+	margin-top: 1.2em;
+	text-align: center;
+}
+
+ul {
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.octopus {
+	background: #DAD6DB;
+	margin-top: 2em;
+	width: 650px;
+}
+
+.octopus .wrapper {
+	background: #252525;
+	border-radius: 0 15em 15em 0;
+	padding-right: 15em;
+}
+
+.octopus .wrapper ul {
+	text-align: right;
+	background: #DAD6DB;
+	height: 464px;
+}
+
+.octopus .wrapper ul li {
+	height: 31px;
+	margin-bottom: 0;
+	font-size: .9em;
+	font-style: italic;
+	color: #fff;
+}
+
+.octopus .wrapper ul li .wrap {
+	width: 100%;
+	height: 31px;
+}
+
+.octopus .wrapper ul li .wrap .year_later {
+	width: 100px;
+	height: 30px;
+	float: right;
+	background: #73777F;
+	border-radius: 1em 0 0 1em;
+}
+
+.octopus .wrapper ul li .wrap .year_later .today {
+	width: 75px;
+	height: 30px;
+	float: right;
+	background: #252525;
+	border-radius: 1em 0 0 1em;
+	padding-left: .5em;
+	padding-right: .2em;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+}
+
+.octopus .wrapper ul li .text {
+	position: relative;
+	top: -80%;
+	height: 1.5em;
+	left: -.7em;
+}
+
+.octopus .eye {
+	position: relative;
+	top: 6em;
+}
+
+.octopus .eye .white {
+	position: absolute;
+	right: 6em;
+	width: 3em;
+	height: 3em;
+	background: #DAD6DB;
+	border-radius: 3em;
+}
+
+.octopus .eye .white .black {
+	position: absolute;
+	top: 1.5em;
+	right: .1em;
+	width: 1em;
+	height: 1em;
+	background: #252525;
+	border-radius: .6em;
+
+}
+
+.octopus .wrapper ul li .wrap .year_later .today_lityc_1 {
+	border-top-left-radius: 150% 150%;
+}
+
+.octopus .wrapper ul li .wrap .year_later .today_lityc_2 {
+	border-bottom-left-radius: 150% 150%;
+}
