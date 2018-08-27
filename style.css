@@ -1,7 +1,5 @@
 body {
 	background: #DAD6DB;
-	margin: 0 auto;
-	padding: 0 10%;
 	font-family: "PT Sans", Tahoma, Arial;
 }
 
@@ -10,52 +8,53 @@ p {
 	text-align: center;
 }
 
-ul {
-	margin-top: 0;
-	padding-left: 0;
-	list-style: none;
+.container {
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	width: 680px;
+	height: 95vh;
 }
 
 .octopus {
-	background: #DAD6DB;
-	margin-top: 2em;
-	width: 650px;
+	display: table-cell;
+	vertical-align: middle;
+	min-height: 464px;
 }
 
-.octopus .wrapper {
+.wrapper { 
 	background: #252525;
 	border-radius: 0 15em 15em 0;
 	padding-right: 15em;
 }
 
-.octopus .wrapper ul {
+ul {
+	margin: 0;
+	list-style: none;
 	text-align: right;
 	background: #DAD6DB;
 	height: 464px;
 }
 
-.octopus .wrapper ul li {
+li {
 	height: 31px;
-	margin-bottom: 0;
 	font-size: .9em;
 	font-style: italic;
 	color: #fff;
 }
 
-.octopus .wrapper ul li .wrap {
-	width: 100%;
+.wrap {
 	height: 31px;
 }
 
-.octopus .wrapper ul li .wrap .year_later {
-	width: 100px;
+.year_later {
 	height: 30px;
 	float: right;
 	background: #73777F;
 	border-radius: 1em 0 0 1em;
 }
 
-.octopus .wrapper ul li .wrap .year_later .today {
+.today {
 	width: 75px;
 	height: 30px;
 	float: right;
@@ -66,19 +65,19 @@ ul {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);  
 }
 
-.octopus .wrapper ul li .text {
+.text {
 	position: relative;
 	top: -80%;
 	height: 1.5em;
 	left: -.7em;
 }
 
-.octopus .eye {
+.eye {
 	position: relative;
 	top: 6em;
 }
 
-.octopus .eye .white {
+.white {
 	position: absolute;
 	right: 6em;
 	width: 3em;
@@ -87,7 +86,7 @@ ul {
 	border-radius: 3em;
 }
 
-.octopus .eye .white .black {
+.black {
 	position: absolute;
 	top: 1.5em;
 	right: .1em;
@@ -98,10 +97,10 @@ ul {
 
 }
 
-.octopus .wrapper ul li .wrap .year_later .today_lityc_1 {
+.today_lityc_1 {
 	border-top-left-radius: 150% 150%;
 }
 
-.octopus .wrapper ul li .wrap .year_later .today_lityc_2 {
+.today_lityc_2 {
 	border-bottom-left-radius: 150% 150%;
 }
