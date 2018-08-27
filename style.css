@@ -1,3 +1,7 @@
+* {
+	transition: all .2s;
+}
+
 body {
 	background: #DAD6DB;
 	font-family: "PT Sans", Tahoma, Arial;
@@ -19,7 +23,7 @@ p {
 .octopus {
 	display: table-cell;
 	vertical-align: middle;
-	min-height: 464px;
+	height: 464px;
 }
 
 .wrapper { 
@@ -97,10 +101,39 @@ li {
 
 }
 
+
+
 .today_lityc_1 {
 	border-top-left-radius: 150% 150%;
 }
 
 .today_lityc_2 {
 	border-bottom-left-radius: 150% 150%;
+}
+
+@media screen and (max-width: 680px) {
+	.eye, .white, .black {
+		display: none;
+	}
+
+	.wrapper { 
+		background: #DAD6DB;
+		padding-right: 1em;
+	}
+
+	.container {
+		width: 480px;
+	}
+
+	.today_lityc_1, .today_lityc_2 {
+		display: none;
+	}
+
+	.year_later {
+		border-radius: 1em .6em .6em 1em;
+	}
+
+	.today {
+		border-radius: 1em .6em .6em 1em; 
+	}
 }
