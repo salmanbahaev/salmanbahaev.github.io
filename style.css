@@ -197,3 +197,9 @@ li {
 		width: 360px;
 	}
 }
+
+@media screen and (max-width: 359px) {
+	.container {
+		width: 320px;
+	}
+}
