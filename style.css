@@ -59,7 +59,6 @@ li {
 }
 
 .today {
-	width: 75px;
 	height: 30px;
 	float: right;
 	background: #252525;
@@ -100,15 +99,58 @@ li {
 	border-radius: .6em;
 
 }
+/*Стили для щупалец
+ ===============================*/
 
+.oop_1 { width: 55%; }
+.oop_0 { width: 50%; }
 
+.organizationality_1 { width: 100%; }
+.organizationality_0 { width: 65%; }
+
+.learning_1 { width: 86%; }
+.learning_0 { width: 65%; }
+
+.sociability_1 { width: 81%; }
+.sociability_0 { width: 65%; }
+
+.resistance_1 { width: 70%; }
+.resistance_0 { width: 66%; }
+
+.tasks_1 { width: 83%; }
+.tasks_0 { width: 63%; }
+
+.algorithmization_1 { width: 77%; }
+.algorithmization_0 { width: 70%; }
+
+.teamwork_1 { width: 82%; }
+.teamwork_0 { width: 59%; }
+
+.web_design_1 { width: 55%; }
+.web_design_0 { width: 45%; }
+
+.frontend_1 { width: 50%; }
+.frontend_0 { width: 35%; }
+
+.backend_1 { width: 40%; }
+.backend_0 { width: 35%; }
+
+.git_1 { width: 50%; }
+.git_0 { width: 23%; }
+
+.english_1 { width: 75%; }
+.english_0 { width: 47%; }
+
+.null { width: 0px; }
 
 .today_lityc_1 {
 	border-top-left-radius: 150% 150%;
+	width: 150px;
 }
 
 .today_lityc_2 {
 	border-bottom-left-radius: 150% 150%;
+	width: 120px;
 }
 
 @media screen and (max-width: 680px) {
@@ -122,7 +164,7 @@ li {
 	}
 
 	.container {
-		width: 480px;
+		width: 580px;
 	}
 
 	.today_lityc_1, .today_lityc_2 {
@@ -135,5 +177,23 @@ li {
 
 	.today {
 		border-radius: 1em .6em .6em 1em; 
+	}
+}
+
+@media screen and (max-width: 579px) {
+	.container {
+		width: 480px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.container {
+		width: 360px;
 	}
 }
