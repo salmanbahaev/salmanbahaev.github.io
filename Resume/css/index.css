@@ -239,9 +239,7 @@
   top: -30px;
   display: inline-block; }
 
-.desclink_vkontakte,
-.desclink_facebook,
-.desclink_linkedin {
+.desclink_vkontakte {
   width: 50px;
   margin: 0 10px;
   display: inline-block; }
@@ -250,9 +248,7 @@
   text-decoration: underline;
   font-style: normal; }
 
-.vkontakte,
-.facebook,
-.linkedin {
+.vkontakte {
   width: 36px; }
 
 @media only screen and (max-width: 1199px){
@@ -278,9 +274,11 @@
     height: 1px;
     background: #959595; }
 
+  .footer-wrap_professional_descskills_content {
+    display: inline-block;
+  }
+
   .header-wrap_about {
     margin-right: 10px;
     margin-bottom: 20px; }
 }
-
-/*# sourceMappingURL=index.css.map */
