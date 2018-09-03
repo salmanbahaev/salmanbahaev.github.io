@@ -1,0 +1,286 @@
+.header {
+  color: #fff;
+  background: #1c2122; }
+
+.header-wrap {
+  background-color: #1c2122;
+  padding-top: 60px; }
+
+.header-wrap_photo {
+  width: 239px;
+  margin: 0 auto; }
+
+.header-wrap_img {
+  height: 250px;
+  border-radius: 50%; }
+
+.header-wrap_second {
+  background-color: #1c2122; }
+
+.header-wrap_about {
+  margin-right: 20px; }
+
+.header-wrap_title {
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  display: table;
+  border-bottom: 1px #fff solid; }
+
+.header-wrap_desc {
+  margin-top: 15px;
+  text-align: justify; }
+
+.header-text_surname {
+  color: #0e7ded; }
+
+.header-text_title {
+  padding-top: 60px;
+  width: 100%;
+  height: 132px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Tahoma;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 3px; }
+
+.header-text_subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 15px; }
+
+.header-text_titleinfo {
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  display: table;
+  border-bottom: 1px #fff solid; }
+
+.header-text_desc_title {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 18px;
+  font-weight: 600; }
+
+.faculty-year {
+  margin-left: 100px; }
+
+.faculty-text_bold {
+  font-weight: 500; }
+
+.header-text_desc_info {
+  margin-top: 15px; }
+
+.header-text_desc_info_direction {
+  font-style: italic; }
+
+.section-wrap_title {
+  letter-spacing: 2px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  display: table;
+  border-bottom: 1px solid #000; }
+
+.section-wrap_subtitle {
+  font-weight: 600;
+  margin-top: 10px; }
+
+.section-wrap_titleinfo {
+  margin-top: 10px; }
+
+.indention_bottom {
+  margin-bottom: 40px; }
+
+.footer-wrap_personal_title {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display: table;
+  color: #2393d6;
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px; }
+
+.footer-wrap_personal_desc {
+  font-family: Tahoma;
+  font-size: 14pt;
+  /*Personal Skills Desc */ }
+
+.footer-wrap_personal_teamwork_desc,
+.footer-wrap_personal_sociability_desc,
+.footer-wrap_personal_english_desc,
+.footer-wrap_personal_creativity_desc,
+.footer-wrap_personal_tasks_desc {
+  margin: 8px 0 16px 0;
+  height: 11px;
+  width: 300px;
+  background: #b5c5c4; }
+
+.footer-wrap_personal_teamwork_desc:after {
+  content: "";
+  display: block;
+  height: 11px;
+  width: 45%;
+  background: #2393d6; }
+
+.footer-wrap_personal_sociability_desc:after {
+  content: "";
+  display: block;
+  height: 11px;
+  width: 60%;
+  background: #2393d6; }
+
+.footer-wrap_personal_english_desc:after {
+  content: "";
+  display: block;
+  height: 11px;
+  width: 30%;
+  background: #2393d6; }
+
+.footer-wrap_personal_creativity_desc:after {
+  content: "";
+  display: block;
+  height: 11px;
+  width: 40%;
+  background: #2393d6; }
+
+.footer-wrap_personal_tasks_desc:after {
+  content: "";
+  display: block;
+  height: 11px;
+  width: 60%;
+  background: #2393d6; }
+
+.footer-wrap_professional_desc {
+  margin-bottom: 25px; }
+
+.footer-wrap_professional_desctitle {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #2393d6;
+  margin: 0 20px 20px 0; }
+
+.footer-wrap_professional_descline {
+  display: inline-block;
+  width: 370px;
+  height: 1px;
+  background: #959595; }
+
+.footer-wrap_professional_descskills {
+  display: inline-block; }
+
+.footer-wrap_professional_descskills_content {
+  margin: 5px 0; }
+
+.descskills_content_title {
+  font-size: 14pt;
+  font-weight: 600; }
+
+.descskills_content_skill {
+  margin: 10px 50px 0 0; }
+
+.descskills_content_skillsize_solid {
+  display: inline-block;
+  margin: 2px;
+  background: #2393d6;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px; }
+
+.descskills_content_skillsize_empty {
+  display: inline-block;
+  margin: 2px;
+  border: 1px #2393d6 solid;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px; }
+
+.footer-wrap_contacts {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display: table;
+  color: #2393d6;
+  margin-bottom: 60px; }
+
+.footer-wrap_contacts_title {
+  display: inline-block;
+  margin: 15px 20px 0 0; }
+
+.footer-wrap_contacts_line {
+  display: inline-block;
+  width: 570px;
+  height: 1px;
+  background: #959595 }
+
+.footer-wrap_contacts_descinfo {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  font-family: none;
+  text-transform: none;
+  color: #000;
+  margin: 20px 40px 20px 0; }
+
+.footer-wrap_contacts_desclink {
+  position: relative;
+  top: -30px;
+  display: inline-block; }
+
+.desclink_vkontakte,
+.desclink_facebook,
+.desclink_linkedin {
+  width: 50px;
+  margin: 0 10px;
+  display: inline-block; }
+
+.contacts_underline {
+  text-decoration: underline;
+  font-style: normal; }
+
+.vkontakte,
+.facebook,
+.linkedin {
+  width: 36px; }
+
+@media only screen and (max-width: 1199px){
+  .footer-wrap_personal_teamwork_desc,
+  .footer-wrap_personal_sociability_desc,
+  .footer-wrap_personal_english_desc,
+  .footer-wrap_personal_creativity_desc,
+  .footer-wrap_personal_tasks_desc {
+    margin: 8px 0 16px 0;
+    height: 11px;
+    width: 260px;
+    background: #b5c5c4; }
+
+  .footer-wrap_professional_descline {
+    display: inline-block;
+    width: 270px;
+    height: 1px;
+    background: #959595; }
+
+  .footer-wrap_contacts_line {
+    display: inline-block;
+    width: 460px;
+    height: 1px;
+    background: #959595; }
+
+  .header-wrap_about {
+    margin-right: 10px;
+    margin-bottom: 20px; }
+}
+
+/*# sourceMappingURL=index.css.map */
