@@ -293,6 +293,7 @@
   }
   .header-text_title {
     text-align: center;
+    font-size: 48px;
   }
   .header-text_subtitle {
     text-align: center; }
@@ -545,9 +546,16 @@
   }
 
 }
+
+@media (max-width: 413px) {
+  .header-text_title {
+    font-size: 32px;
+}
+}
+
 @media (max-width: 375px){
   .header-text_title {
-    font-size: 34px;
+    font-size: 30px;
   }
 @media (max-width: 359px){
   .container {
@@ -584,3 +592,4 @@
   }
   
 }
+/*# sourceMappingURL=index.css.map */
