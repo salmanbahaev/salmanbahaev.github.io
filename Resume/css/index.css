@@ -460,8 +460,11 @@
 
 @media (max-width: 506px) {
   .container {
-    max-width: 95vw;
+    max-width: 98vw;
   }
+  .header-text_title {
+    letter-spacing: 1px;
+}
   .header-wrap_about {
     margin-right: 0;
     margin-bottom: 5px;
@@ -480,6 +483,9 @@
     font-size: 17px;
     text-align: center;
   }
+  .header-wrap_desc {
+    font-size: 15px;
+}
   .header-text_desc_info {
     margin-top: 15px;
     font-size: 15px;
@@ -537,21 +543,27 @@
   .footer-wrap_contacts_desclink {
     top: 0;
   }
-  .header-wrap_desc {
-    font-size: 15px;
-  }
+
 }
 @media (max-width: 375px){
   .header-text_title {
     font-size: 34px;
   }
 @media (max-width: 359px){
-  .descskills_content_skillsize_solid, .descskills_content_skillsize_empty {
+  .container {
+    max-width: 100vw;
+  }
+  .descskills_content_skillsize_solid, 
+  .descskills_content_skillsize_empty {
     margin: 4px;
     height: 14px;
     width: 14px;
   }
-  .footer-wrap_personal_teamwork_desc, .footer-wrap_personal_sociability_desc, .footer-wrap_personal_english_desc, .footer-wrap_personal_creativity_desc, .footer-wrap_personal_tasks_desc {
+  .footer-wrap_personal_teamwork_desc, 
+  .footer-wrap_personal_sociability_desc, 
+  .footer-wrap_personal_english_desc, 
+  .footer-wrap_personal_creativity_desc, 
+  .footer-wrap_personal_tasks_desc {
     margin: 4px 0 10px 0;
     height: 11px;
     width: 268px;
@@ -565,9 +577,10 @@
   }
   .header-text_title {
     font-size: 26px;
-  }
+}
   .header-text_subtitle {
     font-size: 17px;
     margin-top: 0;
   }
+  
 }
