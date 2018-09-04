@@ -537,6 +537,9 @@
   .footer-wrap_contacts_desclink {
     top: 0;
   }
+  .header-wrap_desc {
+    font-size: 15px;
+  }
 }
 @media (max-width: 375px){
   .header-text_title {
