@@ -1,3 +1,7 @@
+* {
+  transition: all .2s;
+}
+
 .header {
   color: #fff;
   background: #1c2122; }
@@ -251,7 +255,7 @@
 .vkontakte {
   width: 36px; }
 
-@media only screen and (max-width: 1199px){
+@media (max-width: 1199px){
   .footer-wrap_personal_teamwork_desc,
   .footer-wrap_personal_sociability_desc,
   .footer-wrap_personal_english_desc,
@@ -281,4 +285,286 @@
   .header-wrap_about {
     margin-right: 10px;
     margin-bottom: 20px; }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 90vw;
+  }
+  .header-text_title {
+    text-align: center;
+  }
+  .header-text_subtitle {
+    text-align: center; }
+  .header-text_titleinfo, 
+  .header-wrap_title {
+    font-size: 20px;
+    margin: 20px auto 0 auto;
+    font-weight: 600;
+  }
+  .header-wrap_desc {
+    font-size: 17px;
+  }
+  .header-text_desc_title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .header-text_desc_education {
+    font-size: 19px;
+    text-align: center;
+  }
+  .faculty-year {
+    margin-left: 10px; 
+  }
+  .header-text_desc_info {
+    margin-top: 15px;
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  
+  .section-wrap_title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+  .section-wrap_subtitle {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .section-wrap_titleinfo {
+    text-align: justify;
+    font-size: 17px;
+  }
+  .footer-wrap_personal_title {
+    font-size: 24px;
+  }
+  .footer-wrap_personal_desc {
+    font-size: 18pt;
+  }
+  .footer-wrap_personal_teamwork_desc,
+  .footer-wrap_personal_sociability_desc,
+  .footer-wrap_personal_english_desc,
+  .footer-wrap_personal_creativity_desc,
+  .footer-wrap_personal_tasks_desc {
+    width: 440px;
+  }
+  .footer-wrap_professional_desctitle {
+    font-size: 24px;
+  }
+  .footer-wrap_professional_descline {
+    display: inline-block;
+    width: 220px;
+    height: 1px;
+    background: #959595;
+  }
+  .descskills_content_title {
+    font-size: 17pt;
+  }
+  .descskills_content_skillsize_solid,
+  .descskills_content_skillsize_empty {
+    margin: 4px;
+    height: 15px;
+    width: 15px;
+  }
+  .footer-wrap_professional_descskills_content {
+    display: inline-block;
+  }
+  .footer-wrap_contacts_title {
+    font-size: 24px;
+  }
+  .footer-wrap_contacts_line {
+    display: inline-block;
+    width: 480px;
+    height: 1px;
+    background: #959595;
+  }
+  .footer-wrap_contacts_descinfo {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 767px){
+  .footer-wrap_professional_descline {
+    display: none;
+  }
+  .footer-wrap_contacts_line {
+    display: inline-block;
+    width: 330px;
+    height: 1px;
+    background: #959595;
+  }
+  .descskills_content_title {
+    font-size: 16pt;
+  }
+  .descskills_content_skillsize_solid,
+  .descskills_content_skillsize_empty {
+    margin: 2px;
+    height: 13px;
+    width: 13px;
+  }
+}
+@media (max-width: 686px) {
+  .faculty-year {
+    margin-left: 0px; 
+    display: block;
+  }
+}
+
+@media (max-width: 615px) {
+  .footer-wrap_personal_title,
+  .footer-wrap_contacts_title,
+  .footer-wrap_professional_desctitle {
+    font-size: 20px;
+}
+  .descskills_content_title {
+    font-size: 14pt;
+  }
+  .descskills_content_skill {
+    margin: 10px 20px 0 0;
+}
+  .descskills_content_skillsize_solid,
+  .descskills_content_skillsize_empty {
+    margin: 2px;
+    height: 11px;
+    width: 11px;
+  }
+  .footer-wrap_contacts_line {
+    display: inline-block;
+    width: 240px;
+    height: 1px;
+    background: #959595;
+  }
+}
+
+@media (max-width: 596px) {
+  .header-text_title {
+    padding-top: 25px;
+    height: 70px;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 40px;
+  }
+}
+@media (max-width: 533px) {
+  .footer-wrap_personal_teamwork_desc,
+  .footer-wrap_personal_sociability_desc,
+  .footer-wrap_personal_english_desc,
+  .footer-wrap_personal_creativity_desc,
+  .footer-wrap_personal_tasks_desc {
+    width: 300px;
+  }
+}
+
+@media (max-width: 506px) {
+  .container {
+    max-width: 95vw;
+  }
+  .header-wrap_about {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+  .header-text_title {
+    font-size: 37px;
+}
+  .header-text_desc_title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .header-text_desc_education {
+    font-size: 17px;
+    text-align: center;
+  }
+  .header-text_desc_info {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .header-text_titleinfo, 
+  .header-wrap_title {
+    font-weight: 500;
+  }
+  .section-wrap_title {
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  .section-wrap_subtitle {
+    font-size: 19px;
+  }
+  .section-wrap_titleinfo {
+    font-size: 15px;
+  }
+  .footer-wrap_personal_title,
+  .footer-wrap_contacts_title, 
+  .footer-wrap_professional_desctitle {
+    font-size: 19px;
+  }
+  .footer-wrap_personal_desc {
+    font-size: 14pt;
+  }
+  .footer-wrap_personal_teamwork_desc, 
+  .footer-wrap_personal_sociability_desc, 
+  .footer-wrap_personal_english_desc, 
+  .footer-wrap_personal_creativity_desc, 
+  .footer-wrap_personal_tasks_desc {
+    margin: 4px 0 10px 0;
+    height: 11px;
+    width: 280px;
+    background: #b5c5c4;
+  }
+  .descskills_content_skillsize_solid,
+  .descskills_content_skillsize_empty {
+    margin: 5px;
+    height: 14px;
+    width: 14px;
+  }
+  .descskills_content_skill {
+    margin: 3px 0 0 0;
+  }
+  .footer-wrap_professional_descskills_content {
+    margin: 0;
+  }
+  .footer-wrap_contacts_line {
+    width: 180px;
+  }
+  .footer-wrap_contacts_desclink {
+    top: 0;
+  }
+}
+@media (max-width: 375px){
+  .header-text_title {
+    font-size: 34px;
+  }
+@media (max-width: 359px){
+  .descskills_content_skillsize_solid, .descskills_content_skillsize_empty {
+    margin: 4px;
+    height: 14px;
+    width: 14px;
+  }
+  .footer-wrap_personal_teamwork_desc, .footer-wrap_personal_sociability_desc, .footer-wrap_personal_english_desc, .footer-wrap_personal_creativity_desc, .footer-wrap_personal_tasks_desc {
+    margin: 4px 0 10px 0;
+    height: 11px;
+    width: 268px;
+    background: #b5c5c4;
+  }
+  .footer-wrap_contacts_line {
+    width: 140px;
+  }
+  .footer-wrap_contacts_descinfo {
+    font-size: 15px;
+  }
+  .header-text_title {
+    font-size: 30px;
+  }
+  .header-text_subtitle {
+    font-size: 17px;
+    margin-top: 0;
+  }
 }
